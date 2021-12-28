@@ -1,0 +1,13 @@
+git config --global user.email "abc@gmail.com"
+git config --global user.name "pradeep naik"
+
+
+git init
+git add [filename] || -A [-A for all files]
+git status
+git commit -m "msg"
+git remote add origin repName
+git push origin master
+git clone repName
+git pull origin master
+
